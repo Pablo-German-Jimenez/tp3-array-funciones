@@ -1,0 +1,9 @@
+body{padding: 20px;}
+
+.monthListContainer{
+    border: 20px solid red;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: 0 0 10px;
+    }
