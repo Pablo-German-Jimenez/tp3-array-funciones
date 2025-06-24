@@ -4,7 +4,8 @@
 const dadoUno = prompt('Decime tu nombre para tirar el primer dados!');
 const dadoDos = prompt('Y ahora decime el nombre del segundo jugador! (jugaba alone estaba más solo que loco malo! jajaja)')
 const resultadoRandom = [];
-
+const lanzamientoDados = [];
+const resultadoDados = [];
 
 /*funcion lanzar dados arroja numeros aleatorios entre 1 y 6*/
 function entreUnoySeis(resultadoRandom){
@@ -13,5 +14,16 @@ function entreUnoySeis(resultadoRandom){
         return resultadoRandom
 }
 
+function sumaDados(resultadoDados){
+        for(i=0;i<50;i++){
+                resultadoDados = Math.floor(Math.random()*50)+1;
+                console.log(resultadoDados)
+                document.writeln(`El resultado de la suma del lanzamiento de dos dados es ${resultadoDados}`)
+                return resultadoDados
+        }
+}
 
-document.writeln(`Tu resultado ${dadoUno} es ${entreUnoySeis(resultadoRandom)} y el de ${dadoDos} es igual a ${entreUnoySeis(resultadoRandom)}`)
+document.writeln(`Tu resultado ${dadoUno} es ${entreUnoySeis(resultadoRandom)} y el de ${dadoDos} es igual a ${entreUnoySeis(resultadoRandom)}<br>`)
+
+entreUnoySeis()
+sumaDados()
