@@ -24,11 +24,7 @@ function mostrarCiudades(ciudadesArray) {
         document.writeln(`Las ciudades elegidas son ${ciudadesArray}<br>`)
         document.writeln(`La longitud del arreglo es ${ciudadesArray.length}<br>`)
         document.writeln(`La primera posición del array :${ciudadesArray[0]}, la tercera posición es ${ciudadesArray[3]} y la última es ${ciudadesArray[ciudadesArray.length-1]}<br>`);
-        
-
- 
-        
-                
+                         
     }
 }
 function llamarCiudades() {
