@@ -42,8 +42,8 @@ function llamarCiudades() {
 
 
 function agregoBarcelona(){
-          let agregoBarsa = ciudadesArray.splice(1,0,`<p class='text-danger'>Barcelona</p>`)
-          document.writeln(`<h4>Ahora el segundo elemento del array es:${agregoBarsa}</h4>`)
+          ciudadesArray.splice(1,0,`<p class='text-danger'>BarCeloNa</p>`)
+          document.writeln(`<h4>Ahora el segundo elemento del array:${ciudadesArray[1]}</h4>`)
 }
 
 llamarCiudades(); 
