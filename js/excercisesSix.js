@@ -5,14 +5,14 @@ Input:
 lado A = 24
 lado B = 5
 Output: 58*/
-
+function calculatePerimeter(sideRectangleOne,sideRectangleTwo){
+ return perimeter = 2*(sideRectangleOne+sideRectangleTwo);
+}
 
 const sideRectangleOne = parseInt(prompt('give me the value of a side reactangle'));
 const sideRectangleTwo =  parseInt(prompt('and now give me the value of the other side of the reactangle!'));
 
 
-function calculatePerimeter(sideRectangleOne,sideRectangleTwo){
- return perimeter = 2*(sideRectangleOne+sideRectangleTwo);
-}
+
 
 alert(`The value of the rectangle is ${calculatePerimeter(sideRectangleOne,sideRectangleTwo)}`);
