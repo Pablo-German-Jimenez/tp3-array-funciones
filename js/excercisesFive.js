@@ -10,17 +10,25 @@ const analicemosLaSituacion = (stringText) => {
   console.log(stringText);
 };
 */
-const cadena = prompt(`Give me a word and we'll search if it has a capital letter, lower letter or mixed bot`)
 
-function analizarCadena1(cadena) {
-  if (cadena === cadena.toUpperCase()) {
-    return "La cadena está formada solo por MAYÚSCULAS.";
-  } else if (cadena === cadena.toLowerCase()) {
-    return "La cadena está formada solo por minúsculas.";
-  } else {
-    return "La cadena está formada por una mezcla de mayúsculas y minúsculas.";
+
+const string = prompt('asdasd')
+function checkString(string) {
+  if (string === "") {
+    console.log("The string is empty!.");
+    
+  }
+
+   if (string === string.toUpperCase() || string !== string.toLowerCase()) {
+  alert("The string is make of capital letters.");
+  }
+  if (string === string.toLowerCase() || string !== string.toUpperCase()) {
+    alert("The string is make of lower letters.");
+  }
+ 
+  else {
+    alert("The string has capital letters and lower letters.");
   }
 }
 
-analizarCadena1()
-
+checkString(string);
