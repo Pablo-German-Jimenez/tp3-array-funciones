@@ -8,7 +8,7 @@ function solicitarCiudades() {
      ciudadesArray = [];
 
     while (true) {
-         ciudadUsuario = prompt("Introduce el nombre de una ciudad (o cancela para finalizar):");
+         ciudadUsuario = prompt(" Introduce a city name(or cancel to finish)");
         if (ciudadUsuario === null) {
             break;
         }
@@ -18,12 +18,12 @@ function solicitarCiudades() {
 }
 function mostrarCiudades(ciudadesArray) {
     if (ciudadesArray.length === 0) {
-        document.writeln("No se han ingresado ciudades.");
+        document.writeln("no cities have been entered");
     } else {
         
-        document.writeln(`Las ciudades elegidas son ${ciudadesArray}<br>`)
-        document.writeln(`La longitud del arreglo es ${ciudadesArray.length}<br>`)
-        document.writeln(`La primera posición del array :${ciudadesArray[0]}, la tercera posición es ${ciudadesArray[3]} y la última es ${ciudadesArray[ciudadesArray.length-1]}<br>`);
+        document.writeln(`The cities choice is: ${ciudadesArray}<br>`)
+        document.writeln(`The length of the array is: ${ciudadesArray.length}<br>`)
+        document.writeln(`The first position of array is :${ciudadesArray[0]}, the third is ${ciudadesArray[3]} and the last is ${ciudadesArray[ciudadesArray.length-1]}<br>`);
                          
     }
 }
@@ -38,8 +38,8 @@ function llamarCiudades() {
 
 
 function agregoBarcelona(){
-          ciudadesArray.splice(1,0,`<p class='text-danger'>BarCeloNa</p>`)
-          document.writeln(`<h4>Ahora el segundo elemento del array:${ciudadesArray[1]}</h4>`)
+          ciudadesArray.splice(1,0,`<p class='text-danger'>BarCeloNa</p>`);
+          document.writeln(`<h4>Right now, the second element of array is: ${ciudadesArray[1]}</h4>`)
 }
 
 llamarCiudades(); 
