@@ -1,6 +1,6 @@
 # 🐲 Practica de javascript - Array y funciones!🐪
 
-*Este repositorio contiene ejercicios basicos para practicar el uso de variables, estructuras condicionales y bucles.*
+*Este repositorio contiene ejercicios básicos de arrays y funciones.*
 
 ## 	⚡️¿Cómo probar los ejercicios? 📋
 
@@ -9,7 +9,6 @@ Para probar los ejercicios podes reemplazar cada archivo de js en index.html par
 - HTML5.
 - Boostrap.
 - Javascript.
-- JQuery.
 
 #### 🎮 Deploy proyecto:
 🎬 [Demo en Netlify](https://deploy-preview-7--tp3-array-funciones.netlify.app/)
